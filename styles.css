@@ -1,1 +1,48 @@
 /* Imported Fonts */
+@import url('https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400');
+
+/* CSS Reset */
+/* Font Size  */
+h1 {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 25px;
+}
+
+nav a, nav span, menu li, #social li, footer{
+    font-size: 20px;
+}
+
+p, dd, li, nav, input {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+}
+
+dt {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* header */
+
+
+
+
+
+/* root variables */
+:root {
+    color:#0D0D0D;
+    color:#F2F2F2;
+    color:#7ABFBF;
+    color:rgba(122, 191, 191, 0.5);
+    color:#EB5428;
+}
