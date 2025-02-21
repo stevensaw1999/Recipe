@@ -6,6 +6,8 @@
 h1 {
     font-family: 'bebas neue', sans-serif;
     font-size: 40px;
+    color:#0D0D0D;
+    text-align: center;
 }
 
 h2 {
@@ -33,7 +35,20 @@ dt {
     font-weight: bold;
 }
 /* header */
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
 
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+}
 
 
 
