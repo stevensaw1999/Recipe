@@ -2,6 +2,16 @@
 @import url('https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400');
 
 /* CSS Reset */
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+    height: 100%;
+}
 /* Font Size  */
 h1 {
     font-family: 'Bebas Neue', sans-serif;
@@ -48,15 +58,20 @@ body {
 .menu ul {
     display: flex;
     white-space: wrap;
+    justify-content: center;
 }
 
 .menu ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 30px;
 }
 
 .menu ul li button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
     color:#EB5428;
 }
 
