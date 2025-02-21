@@ -4,7 +4,7 @@
 /* CSS Reset */
 /* Font Size  */
 h1 {
-    font-family: 'bebas neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
     color:#0D0D0D;
     text-align: center;
@@ -34,11 +34,30 @@ dt {
     font-size: 16px;
     font-weight: bold;
 }
+
+body {
+    color:#0D0D0D;
+}
 /* header */
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    white-space: wrap;
+}
+
 .menu ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
+}
+
+.menu ul li button {
+    color:#EB5428;
 }
 
 button {
@@ -50,10 +69,15 @@ button {
     outline: none;
 }
 
+/* Taco Image */
+#street-tacos img {
+    width: 100%;
+    height: auto;
+}
 
 
 
-/* root variables */
+/* -------------------- ROOT VARIABLES --------------------------------------- */
 :root {
     color:#0D0D0D;
     color:#F2F2F2;
@@ -61,3 +85,10 @@ button {
     color:rgba(122, 191, 191, 0.5);
     color:#EB5428;
 }
+
+
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+@media screen and (min-width: 450px) {
+
+}
+
