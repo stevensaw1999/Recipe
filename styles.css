@@ -59,7 +59,6 @@ menu {
 
 menu li {
     display: inline-block;
-    margin-left: 20px;
 }
 
 menu li a {
@@ -74,6 +73,10 @@ menu li a {
 .street-tacos img{
     width: 100%;
     height: auto;
+}
+
+.street-tacos p {
+    margin-left: 5px;
 }
 
 /* Side Dishes */
