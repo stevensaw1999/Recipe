@@ -70,7 +70,11 @@ menu li a {
     color:#EB5428;
 }
 
-
+/* Street Tacos Img */
+.street-tacos img{
+    width: 100%;
+    height: auto;
+}
 
 /* Side Dishes */
 aside {
