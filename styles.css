@@ -49,45 +49,37 @@ body {
     color:#0D0D0D;
 }
 /* header */
-.menu {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.menu ul {
-    display: flex;
-    white-space: wrap;
-    justify-content: center;
-}
-
-.menu ul li{
+menu {
     list-style: none;
-    display: inline-block;
-    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
-.menu ul li button {
+menu li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+menu li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: bold;
+    text-decoration: none;
     color:#EB5428;
 }
 
-button {
-    background: none;
-    border: none;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-    outline: none;
+
+
+/* Side Dishes */
+aside {
+    background-color:#7ABFBF;
 }
 
-/* Taco Image */
-#street-tacos img {
-    width: 100%;
-    height: auto;
+/* Footer */
+footer {
+    background-color: #ffffff;
 }
 
 
