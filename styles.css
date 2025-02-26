@@ -48,6 +48,14 @@ dt {
 body {
     color:#0D0D0D;
 }
+
+p {
+    word-wrap: break-word;
+    white-space: normal;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
 /* header */
 menu {
     list-style: none;
@@ -77,6 +85,7 @@ menu li a {
 
 .street-tacos p {
     margin-left: 5px;
+    width: 100%;
 }
 
 /* Side Dishes */
@@ -103,6 +112,8 @@ footer {
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width: 450px) {
-
+    p {
+        width: 100%;
+    }
 }
 
