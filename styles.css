@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'bebas neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
 }
 
@@ -51,7 +51,6 @@ body {
 
 p {
     word-wrap: break-word;
-    white-space: wrap;
     width: 100%;
     box-sizing: border-box;
     margin: 10px 0;
@@ -88,6 +87,25 @@ menu li a {
     width: 100%;
 }
 
+/* Details */
+#details h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+#details {
+    display: flex;
+    flex-direction: column;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+dt {
+    margin-right: 25PX;
+}
 /* Side Dishes */
 aside {
     background-color:#7ABFBF;
