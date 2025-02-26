@@ -59,6 +59,9 @@ p {
 }
 
 /* ----------- Header ----------- */
+header {
+    margin-top: -50px;
+}
 menu {
     display: flex;
     justify-content: space-around;
@@ -200,8 +203,8 @@ section p {
     width: 100%;
 }
 /* Stars and DD */
-dd {
-  display: none;
+#rating dd {
+    display: none;
 }
 
 
@@ -273,10 +276,22 @@ nav h2 {
     display: flex;
 }
 
+/* ------- Form ------- */
+form {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    padding: 20px;
+    margin-top: 75px;
+}
 form button{
     background-color: #EB5428;
+    outline: none;
 }
 
+#search {
+    display: none;
+}
 #sign-in {
     display: block;
 }
@@ -303,16 +318,10 @@ form button{
     color:#EB5428;
 }
 
-#good-eats h3{
-    display: none;
-}
 footer h2 {
     display: none;
 }
 
-footer section h3 {
-    display: none;
-}
 footer {
     background-color: #ffffff;
     padding-top: 50px;
@@ -329,9 +338,6 @@ footer ul li a {
 
 }
 
-#good-eats h3, small a {
-    display: none;
-}
 
 
 
