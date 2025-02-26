@@ -116,6 +116,12 @@ dt {
     margin-right: 15px;
 }
 
+#details dd {
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* ----------- INGREDIENTS ----------- */
 #ingredients {
     display: flex;
@@ -203,11 +209,6 @@ section p {
     width: 100%;
 }
 /* Stars and DD */
-#rating dd {
-    display: none;
-}
-
-
 dl {
     display: block;
     margin-left: -15px;
@@ -216,6 +217,16 @@ dl {
 #section svg {
     margin-top: 10px;
 }
+
+aside dd {
+    display: none;
+}
+
+aside svg {
+    margin-top: 20px;
+    margin-right: -20px;
+}
+
 /* ------- Navigation Bar ------- */
 nav span {
     display: flex;
@@ -284,9 +295,16 @@ form {
     padding: 20px;
     margin-top: 75px;
 }
+
+label {
+    display: block;
+    margin-right: 200px;
+}
 form button{
     background-color: #EB5428;
     outline: none;
+    float: right;
+    padding-top:
 }
 
 #search {
