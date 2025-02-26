@@ -98,7 +98,7 @@ menu li a {
 #details {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 dl {
@@ -190,6 +190,7 @@ section {
 section img {
     width: 125px;
     min-height: 125px;
+    margin-bottom: 20px;
 
 }
 
@@ -211,9 +212,7 @@ dl {
     margin-left: -15px;
 }
 
-#rating h4 {
-    margin-bottom: 200px;
-}
+
 /*  ----------- Footer ----------- */
 footer {
     background-color: #ffffff;
