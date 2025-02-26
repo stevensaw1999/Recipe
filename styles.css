@@ -58,7 +58,6 @@ p {
 
 /* header */
 menu {
-    list-style: none;
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
@@ -84,8 +83,7 @@ menu li a {
 }
 
 .street-tacos p {
-    margin-left: 5px;
-    width: 100%;
+    width: 95%;
     margin-left: 10px;
 }
 
@@ -94,6 +92,7 @@ menu li a {
     text-align: center;
     margin-bottom: 15px;
 }
+
 #details {
     display: flex;
     flex-direction: column;
@@ -107,8 +106,26 @@ dl {
 }
 
 dt {
-    margin-right: 25PX;
+    margin-right: 15px;
 }
+
+/* INGREDIENTS */
+#ingredients {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#ingredients h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#ingredients ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
 /* Side Dishes */
 aside {
     background-color:#7ABFBF;
