@@ -194,15 +194,21 @@ section img {
 }
 
 section p {
-    width: 50%;
+    width: 100%;
+}
+/* Stars and DD */
+dd {
+    display: flex;
+    align-items: center;
 }
 
-dd {
+dd span {
     display: none;
 }
 
 dl {
-    margin-right: 1px;
+    display: block;
+    margin-left: -15px;
 }
 
 #rating h4 {
