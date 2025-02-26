@@ -40,7 +40,7 @@ p, dd, li, nav, input {
 }
 
 dt {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
@@ -55,6 +55,7 @@ p {
     box-sizing: border-box;
     margin: 10px 0;
 }
+
 /* header */
 menu {
     list-style: none;
@@ -85,6 +86,7 @@ menu li a {
 .street-tacos p {
     margin-left: 5px;
     width: 100%;
+    margin-left: 10px;
 }
 
 /* Details */
@@ -95,6 +97,7 @@ menu li a {
 #details {
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
 }
 
 dl {
