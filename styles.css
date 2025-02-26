@@ -47,6 +47,8 @@ dt {
 
 body {
     color:#0D0D0D;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 p {
@@ -144,7 +146,7 @@ dt {
 
 #directions h2 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #direction ol {
@@ -199,23 +201,136 @@ section p {
 }
 /* Stars and DD */
 dd {
-    display: flex;
-    align-items: center;
+  display: none;
 }
 
-dd span {
-    display: none;
-}
 
 dl {
     display: block;
     margin-left: -15px;
 }
 
+#section svg {
+    margin-top: 10px;
+}
+/* ------- Navigation Bar ------- */
+nav span {
+    display: flex;
+    cursor: pointer;
+}
 
+#dropdown {
+    display: none;
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav span {
+    display:block;
+}
+nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: none; /* Hide the menu by default */
+    flex-direction: column; /* Stack menu items vertically */
+    background-color: #ffffff; /* Set background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+    position: absolute; /* Position the menu absolutely */
+    top: 100%; /* Position the menu below the button */
+    left: 0; /* Align the menu to the left */
+    width: 100%; /* Make the menu span the full width */
+}
+
+nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #EB5428; /* Set link color */
+    font-size: 16px; /* Set font size */
+    display: flex; /* Use flexbox for icon and text alignment */
+    align-items: center; /* Center items vertically */
+}
+nav ul li a svg {
+    margin-right: 5px; 
+}
+
+nav h2 {
+    display: none;
+}
+
+#sign-in {
+    display: flex;
+}
+
+form button{
+    background-color: #EB5428;
+}
+
+#sign-in {
+    display: block;
+}
 /*  ----------- Footer ----------- */
+#socials {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#socials li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 25px;
+}
+
+#socials li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color:#EB5428;
+}
+
+#good-eats h3{
+    display: none;
+}
+footer h2 {
+    display: none;
+}
+
+footer section h3 {
+    display: none;
+}
 footer {
     background-color: #ffffff;
+    padding-top: 50px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color:#EB5428;
+
+}
+
+#good-eats h3, small a {
+    display: none;
 }
 
 
