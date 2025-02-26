@@ -298,17 +298,24 @@ form {
 
 label {
     display: block;
-    margin-right: 200px;
+    margin-right: 2px;
+    margin-top: 5px;
 }
+
+form input[type="text"] {
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
 form button{
     background-color: #EB5428;
-    outline: none;
     float: right;
 }
 
-#search {
-    display: none;
-}
 #sign-in {
     display: block;
 }
