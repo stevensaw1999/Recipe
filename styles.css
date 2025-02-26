@@ -51,7 +51,7 @@ body {
 
 p {
     word-wrap: break-word;
-    white-space: normal;
+    white-space: wrap;
     width: 100%;
     box-sizing: border-box;
     margin: 10px 0;
