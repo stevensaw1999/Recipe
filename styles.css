@@ -1,7 +1,7 @@
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
 
-/* CSS Reset */
+/*  ----------- CSS Reset ----------- */
 * {
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     margin: 0;
@@ -12,7 +12,7 @@ html, body {
     width: 100%;
     height: 100%;
 }
-/* Font Size  */
+/* ----------- Font Size ----------- */
 h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
@@ -56,7 +56,7 @@ p {
     margin: 10px 0;
 }
 
-/* header */
+/* ----------- Header ----------- */
 menu {
     display: flex;
     justify-content: space-around;
@@ -66,6 +66,8 @@ menu {
 
 menu li {
     display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 menu li a {
@@ -76,7 +78,7 @@ menu li a {
     color:#EB5428;
 }
 
-/* Street Tacos Img */
+/* ----------- Street Tacos Img ----------- */
 .street-tacos img{
     width: 100%;
     height: auto;
@@ -87,7 +89,7 @@ menu li a {
     margin-left: 10px;
 }
 
-/* Details */
+/* ----------- Details ----------- */
 #details h2 {
     text-align: center;
     margin-bottom: 15px;
@@ -109,10 +111,11 @@ dt {
     margin-right: 15px;
 }
 
-/* INGREDIENTS */
+/* ----------- INGREDIENTS ----------- */
 #ingredients {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -126,12 +129,42 @@ dt {
     padding-left: 20px;
 }
 
-/* Side Dishes */
+#ingredients ul li {
+    margin-bottom: 15px;
+}
+
+/* ----------- Directions ----------- */
+#directions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+#directions h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#direction ol {
+    list-style-type: decimal;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+#directions ol li {
+    margin-bottom: 15px; 
+    padding-left: 10px; 
+}
+
+/* ----------- Side Dishes ----------- */
 aside {
     background-color:#7ABFBF;
 }
 
-/* Footer */
+/*  ----------- Footer ----------- */
 footer {
     background-color: #ffffff;
 }
