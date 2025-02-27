@@ -3,7 +3,7 @@
 
 /*  ----------- CSS Reset ----------- */
 * {
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
@@ -249,18 +249,19 @@ nav {
 nav span {
     display:block;
 }
+
 nav ul {
-    list-style: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    display: none; /* Hide the menu by default */
-    flex-direction: column; /* Stack menu items vertically */
-    background-color: #ffffff; /* Set background color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
-    position: absolute; /* Position the menu absolutely */
-    top: 100%; /* Position the menu below the button */
-    left: 0; /* Align the menu to the left */
-    width: 100%; /* Make the menu span the full width */
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    display: none;
+    flex-direction: column; 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%; 
 }
 
 nav ul li {
@@ -269,11 +270,11 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #EB5428; /* Set link color */
-    font-size: 16px; /* Set font size */
-    display: flex; /* Use flexbox for icon and text alignment */
-    align-items: center; /* Center items vertically */
+    text-decoration: none; 
+    color: #EB5428; 
+    font-size: 16px; 
+    display: flex; 
+    align-items: center;
 }
 nav ul li a svg {
     margin-right: 5px; 
@@ -319,6 +320,7 @@ form button{
 #sign-in {
     display: block;
 }
+
 /*  ----------- Footer ----------- */
 #socials h3 {
     display: none;
@@ -347,17 +349,21 @@ form button{
 }
 
 /* Good Eats Section */
-#good-eats h3 {
-    display: none;
+#good-eats {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
 }
 
-#good-eats small {
-    margin-bottom: 2000px;
+#good-eats h3 {
+    display: none;
 }
 
 #good-eats a img {
     display: block;
     max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
 }
 
 #good-eats a {
@@ -385,9 +391,6 @@ footer ul li a {
     color:#EB5428;
 
 }
-
-
-
 
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 :root {
