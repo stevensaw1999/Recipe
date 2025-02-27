@@ -228,75 +228,63 @@ aside svg {
 }
 
 /* ------- Navigation Bar ------- */
-nav span {
-    display: flex;
-    cursor: pointer;
-}
-
-#dropdown {
-    display: none;
-}
-
 nav {
+    grid-area: nav;
+    min-width: 414px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 3px #bbb;
     position: fixed;
     top: 0;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index:5;
 }
-
-nav span {
-    display:block;
-}
-
-nav ul li{
-    list-style: none; 
-    padding: 0; 
+nav ul {
+    grid-area: hamberger;
+    padding: 0;
     margin: 0;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+}
+nav li img {
     display: none;
-    flex-direction: column; 
-    background-color: #ffffff; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    top: 100%; 
-    left: 0;
-    width: 100%; 
 }
-
-nav ul li:first-child {
-    display: flex;
-    flex-direction: row;
+nav li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+nav label {
+    cursor: pointer;
+    display: inline-block;
+    user-select: none;
     position: relative;
+    bottom: 5px;
+    left: 30px;
 }
-
-nav ul li:last-child {
-    display: flex;
-    flex-direction: row;
+nav span {
+    display: block;
     position: relative;
+ }
+nav label svg {
+    display: block;
 }
-
-nav ul li {
-    padding: 10px;
-    border-bottom: 1px solid #ebebeb;
+label span:before, label span:after {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
 }
-
-nav ul li a {
-    text-decoration: none; 
-    color: #EB5428; 
-    font-size: 16px; 
-    display: flex; 
-    align-items: center;
+nav input {
+    display: none;
 }
-
-nav ul li a svg {
-    margin-right: 5px; 
+nav input:checked ~ ul {
+    max-height: 550px;
 }
-
 nav h2 {
-    display: none;
-}
-
-#sign-in {
-    display: flex;
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
 }
 
 /* ------- Form ------- */
