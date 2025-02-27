@@ -30,7 +30,7 @@ h3 {
     font-size: 25px;
 }
 
-nav a, nav span, menu li, #social li, footer{
+nav a, nav span, menu li, #socials li, footer{
     font-size: 20px;
 }
 
@@ -320,6 +320,10 @@ form button{
     display: block;
 }
 /*  ----------- Footer ----------- */
+#socials h3 {
+    display: none;
+}
+
 #socials {
     display: flex;
     justify-content: space-around;
@@ -340,6 +344,26 @@ form button{
     align-items: center;
     text-decoration: none;
     color:#EB5428;
+}
+
+/* Good Eats Section */
+#good-eats h3 {
+    display: none;
+}
+
+#good-eats small {
+    margin-bottom: 2000px;
+}
+
+#good-eats a img {
+    display: block;
+    max-width: 100%;
+}
+
+#good-eats a {
+    text-decoration: none;
+    color:#0D0D0D;
+    font-weight: bold;
 }
 
 footer h2 {
