@@ -235,7 +235,6 @@ nav span {
 
 #dropdown {
     display: none;
-    position: relative;
 }
 
 nav {
@@ -250,7 +249,7 @@ nav span {
     display:block;
 }
 
-nav ul {
+nav ul li{
     list-style: none; 
     padding: 0; 
     margin: 0;
@@ -258,10 +257,21 @@ nav ul {
     flex-direction: column; 
     background-color: #ffffff; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    position: absolute;
     top: 100%; 
     left: 0;
     width: 100%; 
+}
+
+nav ul li:first-child {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+nav ul li:last-child {
+    display: flex;
+    flex-direction: row;
+    position: relative;
 }
 
 nav ul li {
@@ -276,6 +286,7 @@ nav ul li a {
     display: flex; 
     align-items: center;
 }
+
 nav ul li a svg {
     margin-right: 5px; 
 }
@@ -403,7 +414,7 @@ footer ul li a {
 
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 414px) {
     p {
         width: 100%;
     }
